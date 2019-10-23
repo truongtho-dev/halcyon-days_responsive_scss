@@ -1,0 +1,45 @@
+//biến color phổ biến cho văn bản trong trang
+$color-text: #a1a9b0;
+// căn giữa cho các đối tượng sử dụng position
+@mixin middle-hor {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// border-radius
+@mixin border-rd($index) {
+    border-radius: $index;
+    -moz-border-radius: $index;
+    -webkit-border-radius: $index;
+    -o-border-radius: $index;
+}
+.footer-main{
+    height: 120px;
+    margin: 0;
+    padding-top: 50px;
+    background-color: #242830;
+    color: $color-text;
+    font-family: GothamRounded-Book;
+    font-size: 14px;
+    em{
+        color: #fff;
+    }
+    p{
+        margin: 0;
+        padding-left: 5%;
+    }
+    
+}
+//for mobile
+@media screen and (max-width: 479px){
+    .footer-main{
+        padding-top: 30px;
+    p{
+        margin: 0;
+        padding-left: 5%;
+        padding-bottom: 3%;
+    }
+}
+}

@@ -1,0 +1,23 @@
+.footer-main {
+  height: 120px;
+  margin: 0;
+  padding-top: 50px;
+  background-color: #242830;
+  color: #a1a9b0;
+  font-family: GothamRounded-Book;
+  font-size: 14px; }
+  .footer-main em {
+    color: #fff; }
+  .footer-main p {
+    margin: 0;
+    padding-left: 5%; }
+
+@media screen and (max-width: 479px) {
+  .footer-main {
+    padding-top: 30px; }
+    .footer-main p {
+      margin: 0;
+      padding-left: 5%;
+      padding-bottom: 3%; } }
+
+/*# sourceMappingURL=footer.css.map */
